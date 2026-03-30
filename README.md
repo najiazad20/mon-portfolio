@@ -1,74 +1,31 @@
-# React + TypeScript + Vite
+# 🌐 Portfolio — Zad Najia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##### > Portfolio personnel développé avec React + Vite + TypeScript, déployé sur Vercel.
+> 
+### 🔗 **Live** : https://mon-portfolio-blush-zeta.vercel.app/
+## 📸 Aperçu
+### 🏠 Page Accueil
 
-Currently, two official plugins are available:
+<img width="1622" height="951" alt="image" src="https://github.com/user-attachments/assets/bfe785bd-b3b4-4e10-b9c1-bc4753ca0850" />
+
+### 📁 Page Projets
+
+<img width="1603" height="725" alt="image" src="https://github.com/user-attachments/assets/807931f7-0e70-4d35-b709-312723ad6614" />
+
+### 🎓 Page Formations
+
+<img width="1326" height="738" alt="image" src="https://github.com/user-attachments/assets/6dd6b876-1a2a-425e-9204-b2ec101f6d2a" />
 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🏆 Page Certifications
 
-## React Compiler
+<img width="1502" height="632" alt="image" src="https://github.com/user-attachments/assets/f3f8bc9c-c253-414b-868e-fe7083e7121f" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+### 📬 Page Contact
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<img width="1457" height="690" alt="image" src="https://github.com/user-attachments/assets/211aaf23-ee63-49c3-99e2-d80ec97f6842" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Structure du projet
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<img width="330" height="776" alt="image" src="https://github.com/user-attachments/assets/80f46914-6d9c-4e0e-bfa9-dfd7a65f4826" />
