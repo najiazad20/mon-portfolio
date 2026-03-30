@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+
 import { projects } from "@/data/projects";
 
 export default function Projects() {

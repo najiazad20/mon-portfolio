@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { certifications } from "@/data/certifications";
+
 import { useState, useMemo } from "react";
 
 function fmt(s: string) {
@@ -73,6 +74,7 @@ export default function CertificationsPage() {
                   Actif
                 </span>
               )}
+              
             </div>
           </article>
         ))}

@@ -1,7 +1,9 @@
 import { Helmet } from "react-helmet-async";
+
 import { profile } from "@/data/profile";
 
 export default function Contact() {
+    
   return (
     <section className="max-w-lg">
       <Helmet><title>Contact — Portfolio</title></Helmet>

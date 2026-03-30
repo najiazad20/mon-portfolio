@@ -9,10 +9,10 @@ export const profile = {
     { label: "LinkedIn", href: "https://linkedin.com/in/najia-zad-32449a389" },
   ],
   about:
-    "Étudiante en Licence Systèmes d'Informations Répartis à la FST Marrakech. Passionnée par le développement web full-stack, je recherche un stage de fin d'études (PFE) pour mettre en pratique mes compétences et contribuer à des projets innovants.",
+   "Étudiante en Licence SIR à la FST Marrakech, passionnée par le développement web full-stack et les technologies modernes.",
   skills: [
     "React.js", "Node.js", "Laravel", "Spring Boot",
     "Java", "PHP", "JavaScript", "SQL",
-    "MySQL", "PostgreSQL", "Git", "Linux",
+    "MySQL",  "Git", 
   ],
 };

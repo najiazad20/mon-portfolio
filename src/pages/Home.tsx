@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { profile } from "@/data/profile";
 
+import { profile } from "@/data/profile";
 export default function Home() {
   return (
-    <section className="grid gap-10 md:grid-cols-2 items-center min-h-[70vh]">
+    <section className="flex flex-col justify-center min-h-[70vh]">
       <Helmet>
         <title>{profile.name} — Portfolio</title>
         <meta name="description" content={profile.about} />
       </Helmet>
 
-      <div>
+      <div className="max-w-2xl">
         <p className="text-sm font-medium text-zinc-400 uppercase tracking-widest mb-2">
           Disponible pour opportunités
         </p>
@@ -20,7 +20,7 @@ export default function Home() {
         <p className="mt-2 text-lg text-zinc-500 dark:text-zinc-400">
           {profile.role}
         </p>
-        <p className="mt-4 text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-md">
+        <p className="mt-4 text-zinc-600 dark:text-zinc-400 leading-relaxed">
           {profile.about}
         </p>
 
@@ -48,12 +48,6 @@ export default function Home() {
               {skill}
             </span>
           ))}
-        </div>
-      </div>
-
-      <div className="hidden md:flex items-center justify-center">
-        <div className="w-72 h-72 rounded-3xl border-2 border-dashed border-zinc-200 dark:border-zinc-700 flex items-center justify-center text-6xl">
-          🧑‍💻
         </div>
       </div>
     </section>

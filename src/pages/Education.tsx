@@ -1,9 +1,12 @@
 import { Helmet } from "react-helmet-async";
+
 import { education } from "@/data/education";
 
 function fmt(s?: string) {
+
   if (!s) return "Présent";
   const [y, m] = s.split("-");
+  
   return `${m}/${y}`;
 }
 
