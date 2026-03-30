@@ -43,7 +43,7 @@ export default function RootLayout() {
       </main>
 
       <footer className="border-t border-zinc-200 dark:border-zinc-800 py-6 text-center text-sm text-zinc-400">
-        © {new Date().getFullYear()} · Mon Nom · Fait avec React + Vite
+        © {new Date().getFullYear()}  Zad Najia 
       </footer>
     </div>
   );
